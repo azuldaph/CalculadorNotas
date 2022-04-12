@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="17sp"
+        android:padding="10sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Sistema de Evaluación"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+
+    <View
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/separador" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:text="Prácticas Teóricas"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="90dp"
+            android:text="Prom: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/respuesta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginEnd="20dp"
+            android:text=""
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="210dp"
+            android:text="Práctica 1"/>
+
+        <EditText
+            android:id="@+id/numero1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="210dp"
+            android:text="Práctica 2"/>
+
+        <EditText
+            android:id="@+id/numero2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/separador" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:text="Prácticas Laboratorios"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="60dp"
+            android:text="Prom: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/respuesta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginEnd="20dp"
+            android:text=""
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="210dp"
+            android:text="Práctica 1"/>
+
+        <EditText
+            android:id="@+id/numerol1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="210dp"
+            android:text="Práctica 2"/>
+
+        <EditText
+            android:id="@+id/numerol2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="210dp"
+            android:text="Práctica 3"/>
+
+        <EditText
+            android:id="@+id/numerol3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="210dp"
+            android:text="Práctica 4"/>
+
+        <EditText
+            android:id="@+id/numerol4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:text="Promedio: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/promedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:text=""
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10sp"
+        android:textColor="@color/green"
+        android:text=""
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="CALCULAR"
+        android:textSize="25sp"
+        app:backgroundTint="@null"
+        android:background="@color/boton"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
